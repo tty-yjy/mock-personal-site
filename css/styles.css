@@ -1,0 +1,162 @@
+/************* Tag Selectors *************/
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Tangerine', cursive;
+  font-size: 7rem;
+  line-height: 1.25;
+  margin: 50px auto 0;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999e;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  color: #40514e;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  color: #eaf6f6;
+  width: 13%
+}
+
+/************* Class Selectors *************/
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 110px;
+  position: relative;
+}
+
+.middle-container {
+  padding: 50px;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud {
+  position: absolute;
+  right: 22%;
+  top: 50px;
+}
+
+.airship {
+  position: absolute;
+  left: 25%;
+  bottom: 200px;
+}
+
+.profile {
+  margin: auto;
+  padding-bottom: 50px;
+  width: 66%;
+}
+
+.pfp {
+  height: auto;
+  max-width: 100%;
+}
+
+.skills {
+  margin: 50px 0;
+}
+
+.skill-row {
+  margin: 50px auto;
+  text-align: left;
+  width: 66%;
+}
+
+.code-img {
+  float: left;
+  height: auto;
+  margin-right: 30px;
+  max-width: 100%;
+}
+
+.cook-img {
+  float: right;
+  height: auto;
+  margin-left: 30px;
+  max-width: 100%;
+}
+
+.contact-me {
+  margin: auto;
+  width: 66%;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-weight: bold;
+	padding:9px 13px;
+	text-decoration:none;
+	text-shadow: 1px #2f6627;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+	background-color:#66bfbf;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  color: #11999e;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 23px;
+}
+
+.footer-text {
+  color: #eaf6f6;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/************* ID Selectors *************/
+#heading-subtitle {
+  font-weight: normal;
+  margin: auto;
+}
